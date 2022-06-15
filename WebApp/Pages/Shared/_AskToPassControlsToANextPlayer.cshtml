@@ -1,0 +1,14 @@
+﻿@model string
+
+@{
+    var curPlayerId = Model!.Split(";")[2];
+    <h2 class="h2 my-3 text-center">Pass move to a player @(curPlayerId). Player @(curPlayerId), press a button to procceed</h2>
+    <div class="container w-25 justify-self-center">
+        <div class="row row-cols-1 gy-3">
+            <div class="col d-flex justify-content-center">
+                <a class="btn btn-primary w-75" asp-page="@(Model.Split(";")[0])" asp-route-gId="@(Model.Split(";")[1])"
+                   asp-route-x="" asp-route-y="" asp-route-cmd="">Proceed to the next move</a>
+            </div>
+        </div>
+    </div>
+}

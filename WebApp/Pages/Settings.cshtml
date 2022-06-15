@@ -1,0 +1,45 @@
+﻿@page
+@model WebApp.Pages.Settings
+
+<div class="container d-flex flex-column w-50 my-2 justify-self-center align-items-center">
+    <h1 class="h1 my-3">Current game configuration</h1>
+
+    <div class="container">
+        <div class="row">
+            <h3 class="h3 col text-end px-1">Game board width: </h3>
+            <h3 class="h3 col px-1">@(Model.Config.BoardWidth)</h3>
+        </div>
+        <div class="row">
+            <h3 class="h3 col text-end px-1">Game board length: </h3>
+            <h3 class="h3 col px-1">@(Model.Config.BoardLength)</h3>
+        </div>
+
+        <div class="row">
+            <h3 class="h3 col text-end px-1">Ship touch rule: </h3>
+            <h3 class="h3 col px-1">@(Model.Config.EShipTouchRule)</h3>
+        </div>
+    </div>
+    
+    <h1 class="h1 my-3">Ships configuration</h1>
+    
+    <div class="container">
+        @{
+            foreach (var shipConfig in Model.Config.ShipConfigs)
+            {
+                <div class="row">
+                    <h3 class="h3 col text-end px-1">@(shipConfig.Name). Size:</h3>
+                    <h3 class="h3 col px-1">
+                        @(shipConfig.ShipSizeX) X @(shipConfig.ShipSizeY). Quantity: @(shipConfig.Quantity)
+                    </h3>
+                </div>
+            }
+        }
+    </div>
+</div>
+
+<div class="container d-flex flex-column w-25 my-2 justify-self-center align-items-center">
+    <a class="btn btn-primary w-75 my-2" asp-page="SettingsBoardSize">Configure game board size</a>
+    <a class="btn btn-primary w-75 my-2" asp-page="SettingsGameShips">Configure game ships</a>
+    <a class="btn btn-primary w-75 my-2" asp-page="SettingsShipTouchRule">Configure ships touch rule</a>
+    <a class="btn btn-danger w-75 my-2" asp-page="Settings" asp-route-reset="true">Restore to defaults</a>
+</div>

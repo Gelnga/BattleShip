@@ -1,0 +1,30 @@
+﻿@page
+@using WebHelperMethods
+@model WebApp.Pages.LoadGameDb
+
+<div class="row w-100 m-2">
+    <h2 class="h2 col-4">Save name</h2>
+    <h2 class="h2 col-4">Save date</h2>
+</div>
+
+
+@foreach (var save in Model.SavesList)
+{
+    var extractedSaveDate = WebHelperMethods.ExtractDateTimeFromSaveName(save.SavedBrainName)
+        .ToString("dd.MM.yy hh:mm:ss");
+    var saveName = save.SavedBrainName.Replace(extractedSaveDate, "");
+    
+    <div class="row w-100 m-2">
+        <h4 class="h4 col-4">@saveName</h4>
+        <h4 class="h4 col-4">@extractedSaveDate</h4>
+        <div class="col d-flex justify-content-center">
+            <a class="btn btn-primary w-95" asp-page="LoadGameDb" asp-route-id="@save.Id">Load saved game</a>
+        </div>
+        <div class="col d-flex justify-content-center">
+            <form method="post">
+                <input type="hidden" name="id" value="@save.Id"/>
+                <input class="btn btn-danger w-95" type="submit" value="Delete saved game"/>
+            </form>
+        </div>
+    </div>
+}

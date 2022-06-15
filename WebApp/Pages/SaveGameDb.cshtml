@@ -1,0 +1,8 @@
+﻿@page
+@model WebApp.Pages.SaveGameDb
+
+@{
+    var postParameters = "saveNameDb;" + Model.GId;
+        
+    <partial name="_SaveGameForm" model="postParameters"/>
+}

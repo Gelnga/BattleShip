@@ -1,0 +1,12 @@
+C:\Users\Admin\RiderProjects\icd0008-2021f\BattleShipBrain\TcParser\bin\Debug\net6.0\TcParser.deps.json
+C:\Users\Admin\RiderProjects\icd0008-2021f\BattleShipBrain\TcParser\bin\Debug\net6.0\TcParser.dll
+C:\Users\Admin\RiderProjects\icd0008-2021f\BattleShipBrain\TcParser\bin\Debug\net6.0\ref\TcParser.dll
+C:\Users\Admin\RiderProjects\icd0008-2021f\BattleShipBrain\TcParser\bin\Debug\net6.0\TcParser.pdb
+C:\Users\Admin\RiderProjects\icd0008-2021f\BattleShipBrain\TcParser\obj\Debug\net6.0\TcParser.csproj.AssemblyReference.cache
+C:\Users\Admin\RiderProjects\icd0008-2021f\BattleShipBrain\TcParser\obj\Debug\net6.0\TcParser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\RiderProjects\icd0008-2021f\BattleShipBrain\TcParser\obj\Debug\net6.0\TcParser.AssemblyInfoInputs.cache
+C:\Users\Admin\RiderProjects\icd0008-2021f\BattleShipBrain\TcParser\obj\Debug\net6.0\TcParser.AssemblyInfo.cs
+C:\Users\Admin\RiderProjects\icd0008-2021f\BattleShipBrain\TcParser\obj\Debug\net6.0\TcParser.csproj.CoreCompileInputs.cache
+C:\Users\Admin\RiderProjects\icd0008-2021f\BattleShipBrain\TcParser\obj\Debug\net6.0\TcParser.dll
+C:\Users\Admin\RiderProjects\icd0008-2021f\BattleShipBrain\TcParser\obj\Debug\net6.0\ref\TcParser.dll
+C:\Users\Admin\RiderProjects\icd0008-2021f\BattleShipBrain\TcParser\obj\Debug\net6.0\TcParser.pdb

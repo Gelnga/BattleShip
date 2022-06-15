@@ -1,0 +1,56 @@
+﻿@model BattleShipBrain.BsBrain;
+
+@{
+    List<Coordinate>? previewCords = null;
+    var playerId = (int) ViewData["PlayerId"]!;
+    var gId = ViewData["gId"] ?? "";
+    ViewData["Disabled"] ??= false;
+
+    if (ViewData["PreviewCords"] != null)
+    {
+        previewCords = (List<Coordinate>) ViewData["PreviewCords"]!;
+    }
+
+    var chosenBoard = Model!.GetBoard(playerId);
+    var sunkenShips = Model!.GetListOfSunkenShipsCoordinatesByPlayerId(playerId)
+        .Select(x => x.ToString())
+        .ToList();
+}
+
+<div class="container w-75">
+    @for (var y = 0; y < chosenBoard.GetLength(1); y++)
+    {
+
+        <div class="d-flex justify-content-center">
+            @for (var x = 0; x < chosenBoard.GetLength(0); x++)
+            {
+                var squareState = chosenBoard[x, y];
+
+                if ((bool) ViewData["HideShips"]! 
+                    && squareState.IsShip && !squareState.IsBomb) squareState.IsShip = false;
+                
+                var isSunken = sunkenShips.Contains(new Coordinate(x, y).ToString());
+                var gameEndedClass = (bool) ViewData["IsEnded"]! ? "game-ended" : "";
+                var chosenClass = WebHelperMethods.WebHelperMethods.GetSquareStateClass(squareState, isSunken);
+                
+                if (previewCords != null)
+                {
+                    if (previewCords.Contains(new Coordinate(x, y)))
+                    {
+                        chosenClass = "highlighted-ship";
+                        squareState.IsShip = true;
+                    }
+                }
+
+                <div class="game-button-div">
+                    <input type="button" class="game-button 
+                           @chosenClass
+                           @gameEndedClass"
+                           @((bool) ViewData["Disabled"]! ? "disabled" : "")
+                           onclick="window.location.href = 'LocalGame?x=@x&y=@y&gId=@gId'"
+                           value="@(squareState.ToStringWeb())"/>
+                </div>
+            }
+        </div>
+    }
+</div>

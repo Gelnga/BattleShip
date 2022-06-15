@@ -1,0 +1,7 @@
+﻿@page
+@model WebApp.Pages.SaveGame
+
+<div class="container d-flex flex-column w-25 justify-self-center align-items-center">
+    <a class="btn btn-primary my-2" asp-route-gId="@Model.GId" asp-page="SaveGameDb">Save game in database</a>
+    <a class="btn btn-primary my-2" asp-route-gId="@Model.GId"  asp-page="SaveGameJson">Save game in JSON file</a>
+</div>

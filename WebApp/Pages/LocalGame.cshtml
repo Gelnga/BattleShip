@@ -1,0 +1,60 @@
+﻿@page
+@using Microsoft.EntityFrameworkCore.Metadata.Internal
+@model WebApp.Pages.LocalGame
+
+@section Styles {
+     <link href="@Url.Content("~/css/LocalGame.css")" rel="stylesheet" type="text/css"/>
+}
+
+@{
+    if (ViewData["passMove"] != null && !Model.Brain.IsGameAgainstAi())
+    {
+        var model = "LocalGame;" + Model.GId + ";" + Model.Brain.GetCurrentPlayerId();
+        <partial name="_AskToPassControlsToANextPlayer" model="@(model)"/>
+        return;
+    }
+
+    if ((bool) ViewData["isEnded"]!)
+    {
+        <partial name="_GameEndScreen" model="Model.Brain"/>
+        return;
+    }
+
+    var player1Heading = "Player " + Model.Brain.GetOpponentPlayerId();
+    if (Model.Brain.IsGameAgainstAi())
+    {
+        player1Heading = "AI board";
+    }
+}
+
+<h2 class="h2 my-3 text-center">Player @Model.Brain.GetCurrentPlayerId() move</h2>
+<h2 class="h2 my-3 text-center">@(player1Heading) board</h2>
+
+@{
+    var player1Data = new ViewDataDictionary(ViewData)
+    {
+        { "PlayerId", Model.Brain.GetOpponentPlayerId() },
+        { "HideShips", true },
+        { "gId", Model.GId}
+    };
+}
+
+<partial name="_GameBoard" model="Model.Brain" view-data="player1Data"/>
+
+<h2 class="h2 my-3 text-center">Player @Model.Brain.GetCurrentPlayerId() board</h2>
+
+@{
+    var player2Data = new ViewDataDictionary(ViewData)
+    {
+        { "PlayerId", Model.Brain.GetCurrentPlayerId() },
+        { "HideShips", false },
+        { "Disabled", true },
+        { "gId", Model.GId}
+    };
+}
+
+<partial name="_GameBoard" model="Model.Brain" view-data="player2Data"/>
+
+<div class="container w-25 d-flex justify-content-center">
+    <a class="btn btn-primary my-4 w-75" asp-page="SaveGame" asp-route-gId="@Model.GId">Save game</a>
+</div>

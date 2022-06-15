@@ -1,0 +1,22 @@
+﻿@page
+@model WebApp.Pages.SettingsShipTouchRule
+
+<form method="post">
+    <div class="d-flex flex-column align-items-center">
+        <label for="touch-rule">Touch rule</label>
+        <select class="form-select my-2 w-25" id="touch-rule" name="touchRule">
+            @{
+                foreach (var touchRule in (EShipTouchRule[]) Enum.GetValues(typeof(EShipTouchRule)))
+                {
+                    var selected = touchRule == Model.Config.EShipTouchRule ? "selected" : "";
+                    
+                    <!option value="@(touchRule.ToString())" @(selected)>
+                        @(touchRule.ToString())
+                    </!option>
+                }
+            }
+        </select>
+
+        <input class="btn btn-primary my-2 w-25" type="submit" value="Save settings"/>
+    </div>
+</form>

@@ -1,0 +1,22 @@
+﻿@page
+@model WebApp.Pages.SettingsGameShip
+
+<form method="post">
+    <div class="d-flex flex-column align-items-center">
+        <h3 class="h3 my-2 w-50">Ship width and length can't be less than 1 and ship quantity can't be less than 0</h3>
+        
+        <label for="name">Ship name</label>
+        <input class="form-control my-2 w-25" id="name" name="name" value="@(Model.ShipConfig.Name)">
+
+        <label for="width">Ship width</label>
+        <input class="form-control my-2 w-25" id="width" name="width" value="@(Model.ShipConfig.ShipSizeX)">
+
+        <label for="length">Ship length</label>
+        <input class="form-control my-2 w-25" id="length" name="length" value="@(Model.ShipConfig.ShipSizeY)">
+
+        <label for="quantity">Ship quantity</label>
+        <input class="form-control my-2 w-25" id="quantity" name="quantity" value="@(Model.ShipConfig.Quantity)">
+
+        <input class="btn btn-primary my-2 w-25" type="submit" value="Save settings"/>
+    </div>
+</form>

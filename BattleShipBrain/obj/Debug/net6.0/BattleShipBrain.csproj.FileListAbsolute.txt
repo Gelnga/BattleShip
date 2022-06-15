@@ -1,0 +1,17 @@
+C:\Users\Admin\RiderProjects\icd0008-2021f\BattleShipBrain\BattleShipBrain\bin\Debug\net6.0\BattleShipBrain.deps.json
+C:\Users\Admin\RiderProjects\icd0008-2021f\BattleShipBrain\BattleShipBrain\bin\Debug\net6.0\BattleShipBrain.dll
+C:\Users\Admin\RiderProjects\icd0008-2021f\BattleShipBrain\BattleShipBrain\bin\Debug\net6.0\ref\BattleShipBrain.dll
+C:\Users\Admin\RiderProjects\icd0008-2021f\BattleShipBrain\BattleShipBrain\bin\Debug\net6.0\BattleShipBrain.pdb
+C:\Users\Admin\RiderProjects\icd0008-2021f\BattleShipBrain\BattleShipBrain\bin\Debug\net6.0\TcParser.dll
+C:\Users\Admin\RiderProjects\icd0008-2021f\BattleShipBrain\BattleShipBrain\bin\Debug\net6.0\TcParser.pdb
+C:\Users\Admin\RiderProjects\icd0008-2021f\BattleShipBrain\BattleShipBrain\obj\Debug\net6.0\BattleShipBrain.csproj.AssemblyReference.cache
+C:\Users\Admin\RiderProjects\icd0008-2021f\BattleShipBrain\BattleShipBrain\obj\Debug\net6.0\BattleShipBrain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\RiderProjects\icd0008-2021f\BattleShipBrain\BattleShipBrain\obj\Debug\net6.0\BattleShipBrain.AssemblyInfoInputs.cache
+C:\Users\Admin\RiderProjects\icd0008-2021f\BattleShipBrain\BattleShipBrain\obj\Debug\net6.0\BattleShipBrain.AssemblyInfo.cs
+C:\Users\Admin\RiderProjects\icd0008-2021f\BattleShipBrain\BattleShipBrain\obj\Debug\net6.0\BattleShipBrain.csproj.CoreCompileInputs.cache
+C:\Users\Admin\RiderProjects\icd0008-2021f\BattleShipBrain\BattleShipBrain\obj\Debug\net6.0\BattleShipBrain.csproj.CopyComplete
+C:\Users\Admin\RiderProjects\icd0008-2021f\BattleShipBrain\BattleShipBrain\obj\Debug\net6.0\BattleShipBrain.dll
+C:\Users\Admin\RiderProjects\icd0008-2021f\BattleShipBrain\BattleShipBrain\obj\Debug\net6.0\ref\BattleShipBrain.dll
+C:\Users\Admin\RiderProjects\icd0008-2021f\BattleShipBrain\BattleShipBrain\obj\Debug\net6.0\BattleShipBrain.pdb
+C:\Users\Admin\RiderProjects\icd0008-2021f\BattleShipBrain\BattleShipBrain\bin\Debug\net6.0\Domain.dll
+C:\Users\Admin\RiderProjects\icd0008-2021f\BattleShipBrain\BattleShipBrain\bin\Debug\net6.0\Domain.pdb

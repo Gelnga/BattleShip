@@ -1,0 +1,37 @@
+{
+  "BoardWidth": 10,
+  "BoardLength": 10,
+  "ShipConfigs": [
+    {
+      "Name": "Carrier",
+      "Quantity": 1,
+      "ShipSizeX": 5,
+      "ShipSizeY": 1
+    },
+    {
+      "Name": "Battleship",
+      "Quantity": 2,
+      "ShipSizeX": 4,
+      "ShipSizeY": 1
+    },
+    {
+      "Name": "Submarine",
+      "Quantity": 3,
+      "ShipSizeX": 3,
+      "ShipSizeY": 1
+    },
+    {
+      "Name": "Cruiser",
+      "Quantity": 4,
+      "ShipSizeX": 2,
+      "ShipSizeY": 1
+    },
+    {
+      "Name": "Patrol",
+      "Quantity": 5,
+      "ShipSizeX": 1,
+      "ShipSizeY": 1
+    }
+  ],
+  "EShipTouchRule": 0
+}

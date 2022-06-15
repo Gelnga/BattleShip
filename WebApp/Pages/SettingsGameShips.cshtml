@@ -1,0 +1,27 @@
+﻿@page
+@model WebApp.Pages.SettingsGameShips
+
+
+@{
+    <div class="row w-100 m-2">
+        <div class="col-3 d-flex justify-content-center align-items-center"><h2 class="h2">Ship name</h2></div>
+        <div class="col-3 d-flex justify-content-center align-items-center"><h2 class="h2">Ship Quantity</h2></div>
+        <div class="col-2 d-flex justify-content-center align-items-center"><h2 class="h2">Ship width</h2></div>
+        <div class="col-2 d-flex justify-content-center align-items-center"><h2 class="h2">Ship length</h2></div>
+    </div>
+    var shipConfigs = Model.Config.ShipConfigs;
+    for (var i = 0; i < shipConfigs.Count; i++)
+    {
+        var currentConfig = shipConfigs[i];
+        
+        <div class="row w-100 m-2">
+            <h4 class="col-3 h4 d-flex justify-content-center align-items-center">@currentConfig.Name</h4>
+            <h4 class="col-3 h4 d-flex justify-content-center align-items-center">@currentConfig.Quantity</h4>
+            <h4 class="col-2 h4 d-flex justify-content-center align-items-center">@currentConfig.ShipSizeX</h4>
+            <h4 class="col-2 h4 d-flex justify-content-center align-items-center">@currentConfig.ShipSizeY</h4>
+            <div class="col-2 d-flex justify-content-center align-content-center">
+                <a class="btn btn-primary w-75 my-2" asp-page="SettingsGameShip" asp-route-shipConfId="@(i)">Edit config</a>
+            </div>
+        </div>
+    }
+}

@@ -1,0 +1,7 @@
+﻿@page
+@model WebApp.Pages.NewGame
+
+<div class="container d-flex flex-column w-25 justify-self-center align-items-center">
+    <a class="btn btn-primary w-75 my-2" asp-page="LocalGame" asp-route-newGame="true">Player versus player</a>
+    <a class="btn btn-primary w-75 my-2" asp-page="LocalGame" asp-route-newGame="true" asp-route-againstAi="true">Player versus AI</a>
+</div>

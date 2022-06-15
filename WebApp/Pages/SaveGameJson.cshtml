@@ -1,0 +1,9 @@
+﻿@page
+@model WebApp.Pages.SaveGameJson
+
+@{
+    var postParameterName = "saveNameJson;" + Model.GId;
+                
+    <partial name="_SaveGameForm" model="postParameterName"/>
+    return;
+}

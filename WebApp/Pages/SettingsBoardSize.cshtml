@@ -1,0 +1,17 @@
+﻿@page
+@model WebApp.Pages.SettingsBoardSize
+
+<form method="post">
+    <div class="d-flex flex-column align-items-center">
+        <h3 class="h3 my-2 w-50">Board width can't be more than 20 and less than 0</h3>
+        <h3 class="h3 my-2 w-50">Board length can't be more than 15 and less than 0</h3>
+        
+        <label for="board-width">Board width</label>
+        <input class="form-control my-2 w-25" id="board-width" name="boardWidth" value="@(Model.Config.BoardWidth)">
+
+        <label for="board-length">Board length</label>
+        <input class="form-control my-2 w-25" id="board-length" name="boardLength" value="@(Model.Config.BoardLength)">
+
+        <input class="btn btn-primary my-2 w-25" type="submit" value="Save settings"/>
+    </div>
+</form>

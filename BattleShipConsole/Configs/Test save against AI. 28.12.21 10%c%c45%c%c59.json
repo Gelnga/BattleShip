@@ -1,0 +1,1 @@
+{"BoardWidth":10,"BoardLength":10,"ShipConfigs":[{"Name":"Carrier","Quantity":1,"ShipSizeY":1,"ShipSizeX":5},{"Name":"Battleship","Quantity":2,"ShipSizeY":1,"ShipSizeX":4},{"Name":"Submarine","Quantity":3,"ShipSizeY":1,"ShipSizeX":3},{"Name":"Cruiser","Quantity":4,"ShipSizeY":1,"ShipSizeX":2},{"Name":"Patrol","Quantity":5,"ShipSizeY":1,"ShipSizeX":1}],"EShipTouchRule":0}

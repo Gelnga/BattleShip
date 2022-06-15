@@ -1,0 +1,50 @@
+﻿@model BattleShipBrain.BsBrain;
+
+@{
+    var winner = Model!.GetCurrentPlayerId();
+    var playerWon = "Player " + winner;
+    if (winner == 2 && Model.IsGameAgainstAi())
+    {
+        playerWon = "AI";
+    }
+
+    var player2BoardHeader = "Player 2";
+    if (Model.IsGameAgainstAi())
+    {
+        player2BoardHeader = "AI";
+    }
+}
+
+<h2 class="h2 my-3 text-center">@(playerWon) won!</h2>
+
+<h2 class="h2 my-3 text-center">Player 1 board</h2>
+
+@{
+    var player1Data = new ViewDataDictionary(ViewData)
+    {
+        { "PlayerId", 1 },
+        { "HideShips", false }
+    };
+}
+
+<partial name="_GameBoard" model="Model" view-data="player1Data"/>
+
+<h2 class="h2 my-3 text-center">@(player2BoardHeader) board</h2>
+
+@{
+    var player2Data = new ViewDataDictionary(ViewData)
+    {
+        { "PlayerId", 2 },
+        { "HideShips", false }
+    };
+}
+
+<partial name="_GameBoard" model="Model" view-data="player2Data"/>
+
+<div class="container w-25 justify-self-center">
+    <div class="row row-cols-1 gy-3">
+        <div class="col justify-content-center d-flex justify-content-center">
+            <a class="btn btn-primary w-75 m-4" asp-page="Index">Back to main page</a>
+        </div>
+    </div>
+</div>

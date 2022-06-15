@@ -1,0 +1,35 @@
+﻿@page
+@using System.Web
+@using TcParser
+@model WebApp.Pages.LoadGameJson
+
+<div class="row w-100 m-2">
+    <h2 class="h2 col-4">Save name</h2>
+    <h2 class="h2 col-4">Save date</h2>
+</div>
+
+
+@foreach (var save in Model.SavesList)
+{
+    var extractedSaveDate = WebHelperMethods.WebHelperMethods.ExtractDateTimeFromSaveName(
+        TcParser.Decode(save.Split(".json")[0]))
+        .ToString("dd.MM.yy hh:mm:ss");
+    
+    var saveName = TcParser.Decode(save).Split(extractedSaveDate)[0];
+
+    <div class="row w-100 m-2">
+        <h4 class="h4 col-4">@saveName</h4>
+        <h4 class="h4 col-4">@extractedSaveDate</h4>
+        <div class="col d-flex justify-content-center">
+            <a class="btn btn-primary w-95" asp-page="LoadGameJson" asp-route-saveName="@HttpUtility.UrlEncode(save)">
+                Load saved game
+            </a>
+        </div>
+        <div class="col d-flex justify-content-center">
+            <form method="post">
+                <input type="hidden" name="saveName" value="@HttpUtility.UrlEncode(save)"/>
+                <input class="btn btn-danger w-95" type="submit" value="Delete saved game"/>
+            </form>
+        </div>
+    </div>
+}

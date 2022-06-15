@@ -1,0 +1,13 @@
+﻿@model string
+
+<form class="d-flex justify-content-center w-100" method="post">
+    <input type="hidden" name="gId" value="@(Model!.Split(";")[1])"/>
+    
+    <div class="d-flex flex-column w-50">
+        <label for="save-name">Save name</label>
+        <textarea class="form-control my-2" id="save-name" rows="2" name="@Model!.Split(";")[0]"></textarea>
+        <div class="d-flex justify-content-center">
+            <input class="btn btn-primary my-2 w-50" type="submit" value="Save game"/>
+        </div>
+    </div>
+</form>

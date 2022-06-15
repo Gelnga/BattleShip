@@ -1,0 +1,61 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "BattleShipConsoleUI/1.0.0": {
+        "dependencies": {
+          "BattleShipBrain": "1.0.0",
+          "TcParser": "1.0.0"
+        },
+        "runtime": {
+          "BattleShipConsoleUI.dll": {}
+        }
+      },
+      "BattleShipBrain/1.0.0": {
+        "dependencies": {
+          "Domain": "1.0.0",
+          "TcParser": "1.0.0"
+        },
+        "runtime": {
+          "BattleShipBrain.dll": {}
+        }
+      },
+      "Domain/1.0.0": {
+        "runtime": {
+          "Domain.dll": {}
+        }
+      },
+      "TcParser/1.0.0": {
+        "runtime": {
+          "TcParser.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BattleShipConsoleUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BattleShipBrain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TcParser/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

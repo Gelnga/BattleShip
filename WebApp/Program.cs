@@ -4,7 +4,10 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddDbContext<BattleShipDbContext>();
+var connectionString = builder.Configuration.GetConnectionString("NpgsqlConnection");
+
+builder.Services.AddDbContext<BattleShipDbContext>(options =>
+    options.UseNpgsql(connectionString));
 builder.Services.AddRazorPages();
 
 var app = builder.Build();

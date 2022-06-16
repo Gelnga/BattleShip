@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
+using System.Threading.Tasks;
 using BattleShipBrain;
 using Domain;
 using Microsoft.EntityFrameworkCore;
@@ -10,7 +12,7 @@ namespace DAL
     public class BattleShipDbContext : DbContext
     {
         private static string ConnectionString =
-            "Server=barrel.itcollege.ee;User Id=student;Password=Student.Pass.1;Database=student_glenga_battleship;MultipleActiveResultSets=true";
+            "Host=localhost;Port=5436;Username=postgres;Password=postgres;database=BattleShip";
         
         public DbSet<SavedBsBrain> SavedBsBrains { get; set; } = default!;
         public DbSet<BsBrainConfiguration> BsBrainConfigurations { get; set; } = default!;
@@ -18,11 +20,14 @@ namespace DAL
         public DbSet<ShipConfiguration> ShipConfigurations { get; set; } = default!;
         public DbSet<ShipPlacementState> ShipPlacementStates { get; set; } = default!;
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+
+        public BattleShipDbContext()
         {
-            optionsBuilder.UseSqlServer(ConnectionString);
         }
-        
+        public BattleShipDbContext(DbContextOptions<BattleShipDbContext> options)
+            : base(options)
+        {
+        }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -234,6 +239,53 @@ namespace DAL
             }
 
             SaveChanges();
+        }
+
+        public override int SaveChanges()
+        {
+            FixEntitiesDateTime(this);
+            return base.SaveChanges();
+        }
+
+        public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = new CancellationToken())
+        {
+            FixEntitiesDateTime(this);
+            return base.SaveChangesAsync(cancellationToken);
+        }
+
+        private void FixEntitiesDateTime(BattleShipDbContext context)
+        {
+            var dateProperties = context.Model.GetEntityTypes()
+                .SelectMany(t => t.GetProperties())
+                .Where(p => p.ClrType == typeof(DateTime))
+                .Select(z => new
+                {
+                    ParentName = z.DeclaringEntityType.Name,
+                    PropertyName = z.Name
+                });
+
+            var editedEntitiesInTheDbContextGraph = context.ChangeTracker.Entries()
+                .Where(e => e.State == EntityState.Added || e.State == EntityState.Modified)
+                .Select(x => x.Entity);
+
+            foreach (var entity in editedEntitiesInTheDbContextGraph)
+            {
+                var entityFields = dateProperties.Where(d => d.ParentName == entity.GetType().FullName);
+
+                foreach (var property in entityFields)
+                {
+                    var prop = entity.GetType().GetProperty(property.PropertyName);
+
+                    if (prop == null)
+                        continue;
+
+                    var originalValue = prop.GetValue(entity) as DateTime?;
+                    if (originalValue == null)
+                        continue;
+
+                    prop.SetValue(entity, DateTime.SpecifyKind(originalValue.Value, DateTimeKind.Utc));
+                }
+            }
         }
     }
 }

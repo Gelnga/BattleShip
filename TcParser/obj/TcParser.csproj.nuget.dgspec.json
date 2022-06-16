@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\TcParser\\TcParser.csproj": {}
+    "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\TcParser\\TcParser.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\TcParser\\TcParser.csproj": {
+    "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\TcParser\\TcParser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\TcParser\\TcParser.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\TcParser\\TcParser.csproj",
         "projectName": "TcParser",
-        "projectPath": "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\TcParser\\TcParser.csproj",
+        "projectPath": "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\TcParser\\TcParser.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\TcParser\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\TcParser\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"

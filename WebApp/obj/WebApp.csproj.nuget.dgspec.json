@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\WebApp\\WebApp.csproj": {}
+    "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\WebApp\\WebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\BattleShipBrain\\BattleShipBrain.csproj": {
+    "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\BattleShipBrain\\BattleShipBrain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\BattleShipBrain\\BattleShipBrain.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\BattleShipBrain\\BattleShipBrain.csproj",
         "projectName": "BattleShipBrain",
-        "projectPath": "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\BattleShipBrain\\BattleShipBrain.csproj",
+        "projectPath": "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\BattleShipBrain\\BattleShipBrain.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\BattleShipBrain\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\BattleShipBrain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,11 +26,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\Domain\\Domain.csproj"
+              "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\TcParser\\TcParser.csproj": {
-                "projectPath": "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\TcParser\\TcParser.csproj"
+              "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\TcParser\\TcParser.csproj": {
+                "projectPath": "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\TcParser\\TcParser.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\DAL\\DAL.csproj": {
+    "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\DAL\\DAL.csproj",
+        "projectPath": "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\DAL\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -85,11 +85,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\BattleShipBrain\\BattleShipBrain.csproj": {
-                "projectPath": "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\BattleShipBrain\\BattleShipBrain.csproj"
+              "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\BattleShipBrain\\BattleShipBrain.csproj": {
+                "projectPath": "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\BattleShipBrain\\BattleShipBrain.csproj"
               },
-              "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\Domain\\Domain.csproj"
+              "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\Domain\\Domain.csproj"
               }
             }
           }
@@ -106,17 +106,17 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.6, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.4, )"
             }
           },
           "imports": [
@@ -138,14 +138,14 @@
         }
       }
     },
-    "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\Domain\\Domain.csproj": {
+    "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -190,14 +190,14 @@
         }
       }
     },
-    "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\TcParser\\TcParser.csproj": {
+    "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\TcParser\\TcParser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\TcParser\\TcParser.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\TcParser\\TcParser.csproj",
         "projectName": "TcParser",
-        "projectPath": "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\TcParser\\TcParser.csproj",
+        "projectPath": "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\TcParser\\TcParser.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\TcParser\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\TcParser\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -242,14 +242,14 @@
         }
       }
     },
-    "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\WebApp\\WebApp.csproj": {
+    "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\WebApp\\WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\WebApp\\WebApp.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\WebApp\\WebApp.csproj",
         "projectName": "WebApp",
-        "projectPath": "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\WebApp\\WebApp.csproj",
+        "projectPath": "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\WebApp\\WebApp.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\WebApp\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -264,14 +264,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\BattleShipBrain\\BattleShipBrain.csproj": {
-                "projectPath": "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\BattleShipBrain\\BattleShipBrain.csproj"
+              "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\BattleShipBrain\\BattleShipBrain.csproj": {
+                "projectPath": "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\BattleShipBrain\\BattleShipBrain.csproj"
               },
-              "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\DAL\\DAL.csproj"
+              "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\DAL\\DAL.csproj"
               },
-              "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\WebHelperMethods\\WebHelperMethods.csproj": {
-                "projectPath": "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\WebHelperMethods\\WebHelperMethods.csproj"
+              "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\WebHelperMethods\\WebHelperMethods.csproj": {
+                "projectPath": "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\WebHelperMethods\\WebHelperMethods.csproj"
               }
             }
           }
@@ -288,11 +288,13 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.6, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.6, )"
             }
           },
           "imports": [
@@ -317,14 +319,14 @@
         }
       }
     },
-    "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\WebHelperMethods\\WebHelperMethods.csproj": {
+    "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\WebHelperMethods\\WebHelperMethods.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\WebHelperMethods\\WebHelperMethods.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\WebHelperMethods\\WebHelperMethods.csproj",
         "projectName": "WebHelperMethods",
-        "projectPath": "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\WebHelperMethods\\WebHelperMethods.csproj",
+        "projectPath": "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\WebHelperMethods\\WebHelperMethods.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\WebHelperMethods\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\WebHelperMethods\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -339,8 +341,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\BattleShipBrain\\BattleShipBrain.csproj": {
-                "projectPath": "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\BattleShipBrain\\BattleShipBrain.csproj"
+              "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\BattleShipBrain\\BattleShipBrain.csproj": {
+                "projectPath": "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\BattleShipBrain\\BattleShipBrain.csproj"
               }
             }
           }

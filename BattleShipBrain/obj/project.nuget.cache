@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zR1Q+ZI65Rj+cRNst46epb27x6vEK1c1jhTtJBnJevlbu7LdXE6oSXRvRKLWdo3BjQOCEWFNSTZrKKPVn9CW/A==",
+  "dgSpecHash": "rsnidjGpLQ628O2Ik0arBCPjiwF7vKR0HAAj1ezM8+ECPWqdHGFBXGyglbKysGZDQbgwd56Lr7M2Xu1SbgI64Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\BattleShipBrain\\BattleShipBrain.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\BattleShipBrain\\BattleShipBrain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

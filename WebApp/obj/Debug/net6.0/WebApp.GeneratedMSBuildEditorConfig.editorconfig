@@ -8,109 +8,109 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebApp
 build_property.RootNamespace = WebApp
-build_property.ProjectDir = C:\Users\Admin\code\RiderProjects\icd0008-2021f\BattleShipBrain\WebApp\
+build_property.ProjectDir = C:\Users\Admin\code\RiderProjects\BattleShip\WebApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Admin\code\RiderProjects\icd0008-2021f\BattleShipBrain\WebApp
+build_property.MSBuildProjectDirectory = C:\Users\Admin\code\RiderProjects\BattleShip\WebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Admin/code/RiderProjects/icd0008-2021f/BattleShipBrain/WebApp/Pages/Error.cshtml]
+[C:/Users/Admin/code/RiderProjects/BattleShip/WebApp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/code/RiderProjects/icd0008-2021f/BattleShipBrain/WebApp/Pages/Index.cshtml]
+[C:/Users/Admin/code/RiderProjects/BattleShip/WebApp/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/code/RiderProjects/icd0008-2021f/BattleShipBrain/WebApp/Pages/LoadGame.cshtml]
+[C:/Users/Admin/code/RiderProjects/BattleShip/WebApp/Pages/LoadGame.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9hZEdhbWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/code/RiderProjects/icd0008-2021f/BattleShipBrain/WebApp/Pages/LoadGameDb.cshtml]
+[C:/Users/Admin/code/RiderProjects/BattleShip/WebApp/Pages/LoadGameDb.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9hZEdhbWVEYi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/code/RiderProjects/icd0008-2021f/BattleShipBrain/WebApp/Pages/LoadGameJson.cshtml]
+[C:/Users/Admin/code/RiderProjects/BattleShip/WebApp/Pages/LoadGameJson.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9hZEdhbWVKc29uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/code/RiderProjects/icd0008-2021f/BattleShipBrain/WebApp/Pages/LocalGame.cshtml]
+[C:/Users/Admin/code/RiderProjects/BattleShip/WebApp/Pages/LocalGame.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9jYWxHYW1lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/code/RiderProjects/icd0008-2021f/BattleShipBrain/WebApp/Pages/NewGame.cshtml]
+[C:/Users/Admin/code/RiderProjects/BattleShip/WebApp/Pages/NewGame.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3R2FtZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/code/RiderProjects/icd0008-2021f/BattleShipBrain/WebApp/Pages/Privacy.cshtml]
+[C:/Users/Admin/code/RiderProjects/BattleShip/WebApp/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/code/RiderProjects/icd0008-2021f/BattleShipBrain/WebApp/Pages/SaveGame.cshtml]
+[C:/Users/Admin/code/RiderProjects/BattleShip/WebApp/Pages/SaveGame.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2F2ZUdhbWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/code/RiderProjects/icd0008-2021f/BattleShipBrain/WebApp/Pages/SaveGameDb.cshtml]
+[C:/Users/Admin/code/RiderProjects/BattleShip/WebApp/Pages/SaveGameDb.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2F2ZUdhbWVEYi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/code/RiderProjects/icd0008-2021f/BattleShipBrain/WebApp/Pages/SaveGameJson.cshtml]
+[C:/Users/Admin/code/RiderProjects/BattleShip/WebApp/Pages/SaveGameJson.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2F2ZUdhbWVKc29uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/code/RiderProjects/icd0008-2021f/BattleShipBrain/WebApp/Pages/Settings.cshtml]
+[C:/Users/Admin/code/RiderProjects/BattleShip/WebApp/Pages/Settings.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2V0dGluZ3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/code/RiderProjects/icd0008-2021f/BattleShipBrain/WebApp/Pages/SettingsBoardSize.cshtml]
+[C:/Users/Admin/code/RiderProjects/BattleShip/WebApp/Pages/SettingsBoardSize.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2V0dGluZ3NCb2FyZFNpemUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/code/RiderProjects/icd0008-2021f/BattleShipBrain/WebApp/Pages/SettingsGameShip.cshtml]
+[C:/Users/Admin/code/RiderProjects/BattleShip/WebApp/Pages/SettingsGameShip.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2V0dGluZ3NHYW1lU2hpcC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/code/RiderProjects/icd0008-2021f/BattleShipBrain/WebApp/Pages/SettingsGameShips.cshtml]
+[C:/Users/Admin/code/RiderProjects/BattleShip/WebApp/Pages/SettingsGameShips.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2V0dGluZ3NHYW1lU2hpcHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/code/RiderProjects/icd0008-2021f/BattleShipBrain/WebApp/Pages/SettingsShipTouchRule.cshtml]
+[C:/Users/Admin/code/RiderProjects/BattleShip/WebApp/Pages/SettingsShipTouchRule.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2V0dGluZ3NTaGlwVG91Y2hSdWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/code/RiderProjects/icd0008-2021f/BattleShipBrain/WebApp/Pages/Shared/_AskToPassControlsToANextPlayer.cshtml]
+[C:/Users/Admin/code/RiderProjects/BattleShip/WebApp/Pages/Shared/_AskToPassControlsToANextPlayer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Bc2tUb1Bhc3NDb250cm9sc1RvQU5leHRQbGF5ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/code/RiderProjects/icd0008-2021f/BattleShipBrain/WebApp/Pages/Shared/_GameBoard.cshtml]
+[C:/Users/Admin/code/RiderProjects/BattleShip/WebApp/Pages/Shared/_GameBoard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9HYW1lQm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/code/RiderProjects/icd0008-2021f/BattleShipBrain/WebApp/Pages/Shared/_GameEndScreen.cshtml]
+[C:/Users/Admin/code/RiderProjects/BattleShip/WebApp/Pages/Shared/_GameEndScreen.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9HYW1lRW5kU2NyZWVuLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/code/RiderProjects/icd0008-2021f/BattleShipBrain/WebApp/Pages/Shared/_SaveGameForm.cshtml]
+[C:/Users/Admin/code/RiderProjects/BattleShip/WebApp/Pages/Shared/_SaveGameForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9TYXZlR2FtZUZvcm0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/code/RiderProjects/icd0008-2021f/BattleShipBrain/WebApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Admin/code/RiderProjects/BattleShip/WebApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/code/RiderProjects/icd0008-2021f/BattleShipBrain/WebApp/Pages/ShipPlacement.cshtml]
+[C:/Users/Admin/code/RiderProjects/BattleShip/WebApp/Pages/ShipPlacement.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hpcFBsYWNlbWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/code/RiderProjects/icd0008-2021f/BattleShipBrain/WebApp/Pages/_ViewImports.cshtml]
+[C:/Users/Admin/code/RiderProjects/BattleShip/WebApp/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/code/RiderProjects/icd0008-2021f/BattleShipBrain/WebApp/Pages/_ViewStart.cshtml]
+[C:/Users/Admin/code/RiderProjects/BattleShip/WebApp/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/code/RiderProjects/icd0008-2021f/BattleShipBrain/WebApp/Pages/Shared/_Layout.cshtml]
+[C:/Users/Admin/code/RiderProjects/BattleShip/WebApp/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-1lnhnt7yf2

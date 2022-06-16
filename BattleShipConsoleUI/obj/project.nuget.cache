@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PJO6zdhYBcR35IwF6h08WrBZJLrKWzh+a8b3qgT+Xroh5sfixF3PqgPB7XdvK0MSYkoRIKH1BiWb7h96VGTs2Q==",
+  "dgSpecHash": "aARYCMq6ua1iT058MsLS8y5HtHtkPV1muPzQ2vf/iY/jUG7zV5oW/ypYQWKWtVdD4RkoMKTwEUkQ7gqBsC1Abw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\BattleShipConsoleUI\\BattleShipConsoleUI.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\BattleShipConsoleUI\\BattleShipConsoleUI.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

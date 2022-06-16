@@ -66,11 +66,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\WebHelperMethods\\WebHelperMethods.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\WebHelperMethods\\WebHelperMethods.csproj",
       "projectName": "WebHelperMethods",
-      "projectPath": "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\WebHelperMethods\\WebHelperMethods.csproj",
+      "projectPath": "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\WebHelperMethods\\WebHelperMethods.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\WebHelperMethods\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\WebHelperMethods\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -85,8 +85,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\BattleShipBrain\\BattleShipBrain.csproj": {
-              "projectPath": "C:\\Users\\Admin\\code\\RiderProjects\\icd0008-2021f\\BattleShipBrain\\BattleShipBrain\\BattleShipBrain.csproj"
+            "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\BattleShipBrain\\BattleShipBrain.csproj": {
+              "projectPath": "C:\\Users\\Admin\\code\\RiderProjects\\BattleShip\\BattleShipBrain\\BattleShipBrain.csproj"
             }
           }
         }

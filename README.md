@@ -2,7 +2,7 @@
 
 ## Technologies used: C#, ASP.NET Core, CSS, HTML
 
-Goal of the project was to develop a [battleship game](https://en.wikipedia.org/wiki/Battleship_(game)) as console and web application. During this project I learned C# and ASP.NET Core basics.
+Goal of the project was to develop a [battleship game](https://en.wikipedia.org/wiki/Battleship_(game)) as console and web application. Topics learned during this project: C# and ASP.NET Core basics.
 
 ## Application views
 
